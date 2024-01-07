@@ -4,21 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bubble Game</title>
-
-
-
     <style>
     *{padding: 0;
     box-sizing: border-box;
     margin: 0;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 html, body{
     width: 100%;
     height: 100%;
 }
-
 .contain{
     width: 100%;
     height: 100%;
@@ -33,7 +28,6 @@ html, body{
 .screen{
     width: 60%;
     height: 90%;
-   
     border-radius: 10px;
     box-shadow:5px 5px rgba(0, 0, 0, 0.6);
     overflow: hidden;
@@ -51,7 +45,6 @@ html, body{
     padding: 0px 30%;
     border-bottom: 2px solid black;
 }
-
 .elem{
     /* width: 10%; */
     /* height:10%; */
@@ -60,7 +53,6 @@ html, body{
     gap: 20px;
     align-items: center;
     /* background-color: black; */
-
 }
 .elem h2{
     font-weight: 500;
@@ -80,8 +72,7 @@ html, body{
     font-size: 20px;
 }
 .pbtm{
-   
-    display: flex;
+   display: flex;
     align-items: center; 
     justify-content: center;
     width: 100%;
@@ -108,10 +99,6 @@ html, body{
     cursor:pointer;
     background-color: rgb(14, 38, 160);
 }</style>
-
-
-
-
 </head>
 <body>
    <div class="contain">
@@ -139,10 +126,7 @@ html, body{
     </div>
    </div>
     <!-- <script src="script.js"></script> -->
-
-
-
-    <script>var timer =60;
+ <script>var timer =60;
 var score=0;
 var hitrn=0;
 function makeBubble(){
@@ -191,12 +175,9 @@ function audio(){
    }
 
  });
-
-
 runTimer();
 makeBubble();
 getHit();
-
 </script>
 </body>
 </html>
